@@ -11,6 +11,8 @@
     "lint:js:fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
   "devDependencies": {
+    "@vueuse/core": "^9.1.0",
+    "@vueuse/nuxt": "^9.1.0",
     "babel-eslint": "^10.1.0",
     "core-js": "^3.24.0",
     "eslint": "^7.32.0",
@@ -22,5 +24,9 @@
     "prettier": "^2.7.1",
     "sass": "^1.54.3",
     "sass-loader": "^10.3.1"
+  },
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.33.1",
+    "vuex-persist": "^3.1.3"
   }
 }
