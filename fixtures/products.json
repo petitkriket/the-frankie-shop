@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "id": 71,
+      "title": "Women Shoulder Bags",
+      "colorName": "Light Pink",
+      "size": "one size",
+      "price": 46,
+      "stock": 17,
+      "reference": "MWC9BPTT",
+      "thumbnail": "https://dummyjson.com/image/i/products/71/thumbnail.jpg"
+    },
+    {
+      "id": 72,
+      "title": "Women Shoulder Bags",
+      "colorName": "Red",
+      "size": "one size",
+      "price": 46,
+      "stock": 7,
+      "reference": "MWC9BPTT",
+      "thumbnail": "https://dummyjson.com/image/i/products/72/thumbnail.webp"
+    },
+    {
+      "id": 73,
+      "title": "Fancy hand clutch",
+      "colorName": "Black",
+      "size": "one size",
+      "price": 44,
+      "stock": 101,
+      "reference": "I8W0B6Z9",
+      "thumbnail": "https://dummyjson.com/image/i/products/73/thumbnail.jpg"
+    },
+    {
+      "id": 74,
+      "title": "Leather Hand Bag",
+      "colorName": "White",
+      "size": "one size",
+      "price": 57,
+      "stock": 43,
+      "reference": "MNKVCHDL",
+      "thumbnail": "https://dummyjson.com/image/i/products/74/thumbnail.jpg"
+    },
+    {
+      "id": 75,
+      "title": "Seven Pocket Women Bag",
+      "colorName": "Black / Beige",
+      "size": "one size",
+      "price": 68,
+      "stock": 13,
+      "reference": "UREZ6B1Y",
+      "thumbnail": "https://dummyjson.com/image/i/products/75/thumbnail.jpg"
+    },
+       {
+      "id": 76,
+      "title": "Silver Ring Set Women",
+      "colorName": "Silver / Black",
+      "size": "one size",
+      "price": 70,
+      "stock": 51,
+      "reference": "E3259KIN",
+      "thumbnail": "https://dummyjson.com/image/i/products/76/thumbnail.jpg"
+    },
+    {
+      "id": 77,
+      "title": "Rose Ring",
+      "colorName": "Gold / Red",
+      "size": "one size",
+      "price": 100,
+      "stock": 149,
+      "reference": "ZLTSRTBZ",
+      "thumbnail": "https://dummyjson.com/image/i/products/77/thumbnail.jpg"
+    },
+    {
+      "id": 78,
+      "title": "Rhinestone Korean Style Open Rings",
+      "colorName": "Silver",
+      "size": "one size",
+      "price": 30,
+      "stock": 9,
+      "reference": "PFESIMGN",
+      "thumbnail": "https://dummyjson.com/image/i/products/78/thumbnail.jpg"
+    },
+    {
+      "id": 79,
+      "title": "Elegant Female Pearl Earrings",
+      "colorName": "Silver / Nacre",
+      "size": "one size",
+      "price": 30,
+      "stock": 16,
+      "reference": "0VTSB5P9",
+      "thumbnail": "https://dummyjson.com/image/i/products/79/thumbnail.jpg"
+    },
+    {
+      "id": 80,
+      "title": "Chain Pin Tassel Earrings",
+      "colorName": "Silver",
+      "size": "one size",
+      "price": 45,
+      "stock": 9,
+      "reference": "URQU5CBV",
+      "thumbnail": "https://dummyjson.com/image/i/products/80/thumbnail.jpg"
+    }
+  ],
+  "total": 100,
+  "skip": 0,
+  "limit": 30
+}
