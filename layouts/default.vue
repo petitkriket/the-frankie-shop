@@ -4,6 +4,8 @@
     <main>
       <Nuxt />
     </main>
+
+    <footer />
   </div>
 </template>
 
@@ -13,22 +15,37 @@ export default {
 }
 </script>
 
-<style lang="scss">
-html,
-button {
-  font-family: 'Roboto';
-  font-weight: 100;
+<style lang="scss" module>
+:global {
+  html,
+  button {
+    font-family: 'Roboto';
+    font-weight: 100;
+  }
+
+  a,
+  .nuxt-link-active,
+  .nuxt-link-exact-active,
+  .nuxt-link-exact-active:hover {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+  }
+
+  .nuxt-link-exact-active {
+    font-weight: 400;
+  }
+
+  ul {
+    padding-left: 0;
+  }
 }
 
-a,
-.nuxt-link-active,
-.nuxt-link-exact-active,
-.nuxt-link-exact-active:hover {
-  text-transform: uppercase;
-  color: black;
-  text-decoration: none;
+main {
+  padding: 80px 0px 64px 170px;
 }
-.nuxt-link-exact-active {
-  font-weight: 400;
+
+footer {
+  height: 200px;
 }
 </style>

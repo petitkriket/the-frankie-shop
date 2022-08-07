@@ -28,6 +28,7 @@ export default {
 <style lang="scss" module>
 .productList {
   max-width: 30vw;
+
   li {
     display: flex;
     align-items: center;
