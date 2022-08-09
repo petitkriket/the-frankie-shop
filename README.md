@@ -1,3 +1,10 @@
-# nuxt-starter-satlzx
+# The Frankie Shop
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/nuxt-starter-satlzx)
+## to dev
+
+`$ yarn dev`
+
+## to preview
+
+`$ yarn generate`
+`$ yarn start`
