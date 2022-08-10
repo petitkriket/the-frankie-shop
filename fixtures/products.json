@@ -1,104 +1,104 @@
 {
   "products": [
     {
-      "id": 71,
-      "title": "Women Shoulder Bags",
-      "colorName": "Light Pink",
+      "id": 1,
+      "title": "Laura Lombardi Piatta Necklace",
+      "colorName": "Gold",
       "size": "one size",
-      "price": 46,
+      "price": 98,
+      "stock": 13,
+      "reference": "UREZ6B1Y",
+      "thumbnail": "https://the-frankie-shop.s3.eu-west-3.amazonaws.com/laura-lombardi-piatta-necklace-gold-necklace-laura-lombardi-119969_900x.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Aqua Knit Cardigan",
+      "colorName": "Red Stripe",
+      "size": "XS",
+      "price": 107,
+      "stock": 16,
+      "reference": "0VTSB5P9",
+      "thumbnail": "https://the-frankie-shop.s3.eu-west-3.amazonaws.com/aqua-knit-cardigan-red-stripe-cardigan-the-plan-605727_900x.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Maxim Jumpsuit",
+      "colorName": "Olive",
+      "size": "M",
+      "price": 165,
       "stock": 17,
       "reference": "MWC9BPTT",
-      "thumbnail": "https://dummyjson.com/image/i/products/71/thumbnail.jpg"
+      "thumbnail": "https://the-frankie-shop.s3.eu-west-3.amazonaws.com/maxim-jumpsuit-olive-jumpsuit-love-my-santa-356528_900x.jpeg"
     },
     {
-      "id": 72,
-      "title": "Women Shoulder Bags",
-      "colorName": "Red",
-      "size": "one size",
-      "price": 46,
+      "id": 4,
+      "title": "Ethan Pocket Shirt",
+      "colorName": "Slate Stripe",
+      "size": "M",
+      "price": 129,
       "stock": 7,
       "reference": "MWC9BPTT",
-      "thumbnail": "https://dummyjson.com/image/i/products/72/thumbnail.webp"
+      "thumbnail": "https://the-frankie-shop.s3.eu-west-3.amazonaws.com/ethan-pocket-shirt-slate-stripe-shirt-farmers-market-746587_900x.jpeg"
     },
     {
-      "id": 73,
-      "title": "Fancy hand clutch",
-      "colorName": "Black",
-      "size": "one size",
-      "price": 44,
+      "id": 5,
+      "title": "Low Classic Classic Rib Sleeveless Top",
+      "colorName": "GREY",
+      "size": "S",
+      "price": 124,
+      "stock": 51,
+      "reference": "E3259KIN",
+      "thumbnail": "https://the-frankie-shop.s3.eu-west-3.amazonaws.com/Low-Classic-Classic-Rib-Sleeveless-Top-Beige-jiao-20july0774_900x.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Umi Belted Trench Coat",
+      "colorName": "Beige",
+      "size": "M",
+      "price": 215,
       "stock": 101,
       "reference": "I8W0B6Z9",
-      "thumbnail": "https://dummyjson.com/image/i/products/73/thumbnail.jpg"
+      "thumbnail": "https://the-frankie-shop.s3.eu-west-3.amazonaws.com/umi-belted-trench-coat-beige-coat-the-frankie-shop-767604_900x.jpeg"
     },
     {
-      "id": 74,
-      "title": "Leather Hand Bag",
-      "colorName": "White",
+      "id": 7,
+      "title": "Fana Mini Bag",
+      "colorName": "Blue",
       "size": "one size",
       "price": 57,
       "stock": 43,
       "reference": "MNKVCHDL",
-      "thumbnail": "https://dummyjson.com/image/i/products/74/thumbnail.jpg"
+      "thumbnail": "https://the-frankie-shop.s3.eu-west-3.amazonaws.com/fana-mini-net-bag-blue-bag-cafe-noir-122384_900x.jpeg"
     },
     {
-      "id": 75,
-      "title": "Seven Pocket Women Bag",
-      "colorName": "Black / Beige",
-      "size": "one size",
-      "price": 68,
-      "stock": 13,
-      "reference": "UREZ6B1Y",
-      "thumbnail": "https://dummyjson.com/image/i/products/75/thumbnail.jpg"
-    },
-       {
-      "id": 76,
-      "title": "Silver Ring Set Women",
-      "colorName": "Silver / Black",
-      "size": "one size",
-      "price": 70,
-      "stock": 51,
-      "reference": "E3259KIN",
-      "thumbnail": "https://dummyjson.com/image/i/products/76/thumbnail.jpg"
-    },
-    {
-      "id": 77,
-      "title": "Rose Ring",
-      "colorName": "Gold / Red",
-      "size": "one size",
-      "price": 100,
-      "stock": 149,
-      "reference": "ZLTSRTBZ",
-      "thumbnail": "https://dummyjson.com/image/i/products/77/thumbnail.jpg"
-    },
-    {
-      "id": 78,
-      "title": "Rhinestone Korean Style Open Rings",
-      "colorName": "Silver",
-      "size": "one size",
-      "price": 30,
+      "id": 8,
+      "title": "Astra Bomber Jacket",
+      "colorName": "Black",
+      "size": "L",
+      "price": 389,
       "stock": 9,
       "reference": "PFESIMGN",
-      "thumbnail": "https://dummyjson.com/image/i/products/78/thumbnail.jpg"
+      "thumbnail": "https://the-frankie-shop.s3.eu-west-3.amazonaws.com/5252_900x.jpeg"
     },
     {
-      "id": 79,
-      "title": "Elegant Female Pearl Earrings",
-      "colorName": "Silver / Nacre",
-      "size": "one size",
-      "price": 30,
-      "stock": 16,
-      "reference": "0VTSB5P9",
-      "thumbnail": "https://dummyjson.com/image/i/products/79/thumbnail.jpg"
+      "id": 9,
+      "title": "Rohe Jim Unisex Jacket",
+      "colorName": "Hazelnut Melange",
+      "size": "M",
+      "price": 550,
+      "stock": 149,
+      "reference": "ZLTSRTBZ",
+      "thumbnail": "https://the-frankie-shop.s3.eu-west-3.amazonaws.com/rohe-jim-unisex-jacket-hazelnut-melange-jacket-the-frankie-shop-201973_900x.jpeg"
     },
     {
-      "id": 80,
-      "title": "Chain Pin Tassel Earrings",
-      "colorName": "Silver",
-      "size": "one size",
-      "price": 45,
+      "id": 10,
+      "title": "Anika Backless Crochet Top",
+      "colorName": "Orange",
+      "size": "S",
+      "price": 87,
       "stock": 9,
       "reference": "URQU5CBV",
-      "thumbnail": "https://dummyjson.com/image/i/products/80/thumbnail.jpg"
+      "thumbnail": "https://the-frankie-shop.s3.eu-west-3.amazonaws.com/anikka-backless-crochet-top-orange-top-the-plan-259586_900x.jpeg"
     }
   ],
   "total": 100,

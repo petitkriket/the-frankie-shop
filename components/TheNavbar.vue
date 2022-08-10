@@ -1,7 +1,7 @@
 <template>
   <nav :class="$style.navbar">
     <nuxt-link to="/" :class="$style.brandLogo">
-      <img :src="brandLogo" alt="" />
+      <img :src="brandLogo" alt="Zara brand logo" />
     </nuxt-link>
 
     <span :class="$style.links">
@@ -34,12 +34,12 @@ nav {
   top: 0;
   z-index: 1;
   background-color: #fff;
-  padding: 12px 12px 16px 12px;
+  padding: 5px 12px 16px 12px;
 
   .brandLogo {
-    margin-left: 170px;
+    margin-left: 160px;
     img {
-      height: 88px;
+      height: 110px;
     }
   }
 
