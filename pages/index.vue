@@ -1,12 +1,12 @@
 <template>
-  <div class="container">
-    <ul :class="$style.productList">
-      <li v-for="product in $store.state.products.items" :key="product.id">
-        {{ product.title }}
-        <ZButton @click="addToCart(product)">+ Add to cart</ZButton>
-      </li>
-    </ul>
-  </div>
+  <ul :class="$style.productList">
+    <ProductListItem
+      v-for="product in $store.state.products.items"
+      :key="product.id"
+      v-bind="product"
+      @add="addToCart(product)"
+    />
+  </ul>
 </template>
 
 <script>
@@ -27,13 +27,10 @@ export default {
 
 <style lang="scss" module>
 .productList {
-  max-width: 30vw;
-
-  li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-  }
+  max-width: 33vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 20px;
 }
 </style>

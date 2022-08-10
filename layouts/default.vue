@@ -42,7 +42,7 @@ export default {
 }
 
 main {
-  padding: 80px 0px 64px 170px;
+  padding: 0 64px;
 }
 
 footer {
