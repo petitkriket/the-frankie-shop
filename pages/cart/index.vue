@@ -137,7 +137,6 @@ export default {
 }
 
 .cartSlider {
-  cursor: pointer;
   width: 100%;
   overflow: hidden;
   overflow-x: scroll;
