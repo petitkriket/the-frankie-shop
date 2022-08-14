@@ -20,6 +20,7 @@ export default {
   methods: {
     addToCart(product) {
       this.$store.dispatch('cart/CREATE_ITEM', product)
+      this.$store.commit('ui/TOGGLE_SIDEBAR')
     },
   },
 }

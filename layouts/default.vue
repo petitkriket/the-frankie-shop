@@ -6,6 +6,11 @@
     </main>
 
     <footer />
+
+    <TheSidebar
+      :is-open="$store.state.ui.isSidebarOpen"
+      @close="$store.commit('ui/TOGGLE_SIDEBAR')"
+    />
   </div>
 </template>
 
@@ -17,8 +22,7 @@ export default {
 
 <style lang="scss" module>
 :global {
-  html,
-  button {
+  html {
     font-family: 'Roboto';
     font-weight: 100;
   }

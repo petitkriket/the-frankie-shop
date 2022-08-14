@@ -93,6 +93,7 @@ import { useScroll } from '@vueuse/core'
 
 export default {
   name: 'CartContentPage',
+  scrollToTop: true,
   setup() {
     const slider = ref(null)
 
