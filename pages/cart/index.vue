@@ -5,49 +5,18 @@
         Items in the basket are not reserved until completing the purchase.
       </ZAlert>
 
-      <div
-        v-if="$store.getters['cart/cartProducts'].length > 3"
-        :class="$style.cartControls"
-      >
-        <ZButton
-          size="xs"
-          variant="ghost"
-          :disabled="hasReachedLeft"
-          @click="scrollTo('left')"
-        >
-          <i class="ph-arrow-left-thin" />
-        </ZButton>
-        <ZButton
-          size="xs"
-          variant="ghost"
-          :disabled="hasReachedRight"
-          @click="scrollTo('right')"
-        >
-          <i class="ph-arrow-right-thin" />
-        </ZButton>
-      </div>
-
-      <div ref="slider" :class="$style.cartSlider">
-        <ul :class="$style.inner">
-          <CartLineItem
-            v-for="cartItem in $store.getters['cart/cartProducts']"
-            v-bind="cartItem"
-            :key="cartItem.id"
-            @increase="$store.dispatch('cart/CREATE_ITEM', { id: cartItem.id })"
-            @decrease="
-              $store.dispatch('cart/DESTROY_ITEM', { id: cartItem.id })
-            "
-            @removal="$store.dispatch('cart/DISCARD_ITEM', { id: cartItem.id })"
-          />
-        </ul>
-      </div>
+      <client-only>
+        <CartLineItemsSlider />
+      </client-only>
 
       <CartCoupons
         :coupons="$store.state.cart.coupons"
         @addition="(code) => $store.dispatch('cart/CREATE_COUPON', code)"
         @removal="(code) => $store.commit('cart/REMOVE_COUPON', { code })"
+        :class="$style.coupons"
       />
 
+      <!-- TODO: a component slotted inside a bottom sidebar -->
       <div :class="$style.cartSummary">
         <div :class="$style.left">
           <div :class="$style.gifts">
@@ -88,35 +57,9 @@
 </template>
 
 <script>
-import { ref, toRefs } from '@nuxtjs/composition-api'
-import { useScroll } from '@vueuse/core'
-
 export default {
   name: 'CartContentPage',
   scrollToTop: true,
-  setup() {
-    const slider = ref(null)
-
-    const { arrivedState } = useScroll(slider)
-    const { left, right } = toRefs(arrivedState)
-
-    const scrollTo = (direction) => {
-      const sliderEl = slider.value
-      const sliderScroll = sliderEl.scrollLeft
-      const value = direction === 'left' ? -600 : +600
-      slider.value.scrollTo({
-        left: sliderScroll + value,
-        behavior: 'smooth',
-      })
-    }
-
-    return {
-      slider,
-      hasReachedLeft: left,
-      hasReachedRight: right,
-      scrollTo,
-    }
-  },
 }
 </script>
 
@@ -126,33 +69,9 @@ export default {
   display: inline-block;
 }
 
-.cartControls {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-
-  i {
-    font-size: 22px;
-  }
+.coupons {
+  margin-top: 16px;
 }
-
-.cartSlider {
-  width: 100%;
-  overflow: hidden;
-  overflow-x: scroll;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
-
-  .inner {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 20px;
-  }
-}
-
 .cartSummary {
   position: fixed;
   bottom: 0;

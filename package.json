@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@nuxtjs/composition-api": "^0.33.1",
+    "swiper": "^7.0.9",
     "vuex-persist": "^3.1.3"
   }
 }

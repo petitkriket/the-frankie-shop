@@ -32,7 +32,7 @@ nav {
   display: flex;
   justify-content: space-between;
   top: 0;
-  z-index: 1;
+  z-index: 1000;
   background-color: #fff;
   padding: 5px 12px 16px 12px;
 
