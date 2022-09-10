@@ -57,6 +57,14 @@ export default {
         variableWidth: true,
         spaceBetween: 0,
         grabCursor: true,
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2.25,
+          },
+        },
       },
       swiper: null,
     }
@@ -84,7 +92,7 @@ export default {
   align-items: center;
 
   i {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
 
@@ -92,5 +100,6 @@ export default {
   width: 100%;
   overflow: hidden;
   overflow-x: scroll;
+  margin-top: 48px;
 }
 </style>
