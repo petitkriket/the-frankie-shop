@@ -39,7 +39,11 @@ export default {
       this.$emit('increase')
     },
     decrease() {
-      this.$emit('decrease')
+      if (this.quantity > 1) {
+        this.$emit('decrease')
+      } else {
+        this.removal()
+      }
     },
     removal() {
       this.$emit('removal')
@@ -72,6 +76,8 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 10px;
+    font-weight: 300;
 
     .specs {
       display: flex;

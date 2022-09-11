@@ -52,7 +52,7 @@ export default {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 30;
+  z-index: 1050;
   width: 384px;
   height: 100%;
   background-color: #ffffff;

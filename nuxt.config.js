@@ -34,16 +34,19 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['normalize.css/normalize.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '~/plugins/vuex-persist', ssr: false }],
+  plugins: [
+    { src: '@/plugins/vuex-persist', mode: 'client' },
+    { src: '@/plugins/vue-awesome-swiper', mode: 'client' },
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxtjs/composition-api/module', '@vueuse/nuxt'],
+  buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
